@@ -90,3 +90,7 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
+
+gem 'rack-cors'
+gem 'active_model_serializers'
+
