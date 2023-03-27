@@ -91,6 +91,5 @@ group :test do
   gem 'webdrivers'
 end
 
-gem 'rack-cors'
 gem 'active_model_serializers'
-
+gem 'rack-cors'

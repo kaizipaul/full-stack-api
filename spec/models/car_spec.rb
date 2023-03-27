@@ -7,7 +7,7 @@ RSpec.describe Car, type: :model do
                      price: 0,
                      description: '',
                      test_drive_fee: 0,
-                     year: 0,)
+                     year: 0)
     expect(car).to_not be_valid
   end
 
