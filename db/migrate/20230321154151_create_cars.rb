@@ -5,7 +5,6 @@ class CreateCars < ActiveRecord::Migration[7.0]
       t.string :description
       t.decimal :price
       t.decimal :test_drive_fee
-      t.string :reserved
       t.string :model
       t.date :year
 
