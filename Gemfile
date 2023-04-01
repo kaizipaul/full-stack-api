@@ -14,7 +14,7 @@ gem 'cancancan'
 #  Add jwt for devise
 gem 'devise-jwt'
 
- # api documentation
+# api documentation
 gem 'rswag'
 
 # Add active storage
