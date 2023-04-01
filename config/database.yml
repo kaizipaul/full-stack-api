@@ -90,6 +90,6 @@ test:
 production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
-  database: full_stack_api_production
-  username: full_stack_api
-  password: <%= ENV["FULL_STACK_API_DATABASE_PASSWORD"] %>
+  database: full_stack_api
+  username: full_stack_api_user
+  password: <%= ENV["PASSWORD"] %>
